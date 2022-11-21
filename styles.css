@@ -104,15 +104,16 @@ footer{
 #basicolours,#hexcolours{
     transition: 0.2s;
 }
-#basicolours:hover,#hexcolours:hover{
+#hexcoloursin, #basicoloursin,#basicolours:hover,#hexcolours:hover{
     color: white;
 }
 @media (max-width: 800px) { 
-    #buttom:hover,#buttom2:focus {
-        transform: scale(1.05);
+    #buttom,#buttom2,#back {
+    transform: scale(0.8);
     }
-    .imageandtext:focus{
-        transform: scale(1.1);
+    #buttom:focus,#buttom2:focus,.imageandtext:focus,
+    #buttom:hover,#buttom2:hover,.imageandtext:hover {
+        transform: scale(0.85);
     }
     ul{
         width: auto;
