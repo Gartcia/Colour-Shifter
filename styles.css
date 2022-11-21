@@ -1,3 +1,6 @@
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 :root{
     --shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.425);
     --color: black;
@@ -105,6 +108,12 @@ footer{
     color: white;
 }
 @media (max-width: 800px) { 
+    #buttom:hover,#buttom2:focus {
+        transform: scale(1.05);
+    }
+    .imageandtext:focus{
+        transform: scale(1.1);
+    }
     ul{
         width: auto;
         padding: 0;
