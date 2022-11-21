@@ -72,7 +72,7 @@ a{
     padding: 20px;
     text-align: center;
     border-radius: 20px;
-    color: var(--color);
+    color: black;
     cursor: pointer;
 }
 #buttom:hover,#buttom2:hover {
@@ -104,7 +104,7 @@ footer{
 #basicolours,#hexcolours{
     transition: 0.2s;
 }
-#hexcoloursin, #basicoloursin,#basicolours:hover,#hexcolours:hover{
+#hexcoloursin,#basicoloursin,#basicolours:hover,#hexcolours:hover{
     color: white;
 }
 @media (max-width: 800px) { 
